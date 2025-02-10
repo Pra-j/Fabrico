@@ -1,0 +1,236 @@
+{
+  "woman": [
+    {
+      "id": 1,
+      "productName": "Red Dress",
+      "description": "Elegant evening dress",
+      "brand": "Zara",
+      "price": 49.99,
+      "discount": 10,
+      "stock": 10,
+      "rating": 4.5,
+      "tags": ["fashion", "summer", "women"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "productName": "High Heels",
+      "description": "Stylish black high heels",
+      "brand": "Gucci",
+      "price": 79.99,
+      "discount": 5,
+      "stock": 15,
+      "rating": 4.7,
+      "tags": ["shoes", "women"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "productName": "Handbag",
+      "description": "Leather handbag for all occasions",
+      "brand": "Louis Vuitton",
+      "price": 120.99,
+      "discount": 15,
+      "stock": 8,
+      "rating": 4.8,
+      "tags": ["bag", "women"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "productName": "Gold Necklace",
+      "description": "Premium gold-plated necklace",
+      "brand": "Tiffany & Co.",
+      "price": 200.99,
+      "discount": 20,
+      "stock": 5,
+      "rating": 4.9,
+      "tags": ["jewelry", "women"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "productName": "Perfume",
+      "description": "Long-lasting floral fragrance",
+      "brand": "Chanel",
+      "price": 99.99,
+      "discount": 8,
+      "stock": 12,
+      "rating": 4.6,
+      "tags": ["beauty", "women"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 6,
+      "productName": "Jeans",
+      "description": "Skinny fit blue jeans",
+      "brand": "Levi's",
+      "price": 59.99,
+      "discount": 12,
+      "stock": 20,
+      "rating": 4.4,
+      "tags": ["clothing", "women"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 7,
+      "productName": "Sunglasses",
+      "description": "UV protection stylish sunglasses",
+      "brand": "Ray-Ban",
+      "price": 89.99,
+      "discount": 10,
+      "stock": 14,
+      "rating": 4.7,
+      "tags": ["accessories", "women"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 8,
+      "productName": "Sweater",
+      "description": "Cozy wool sweater",
+      "brand": "H&M",
+      "price": 39.99,
+      "discount": 5,
+      "stock": 18,
+      "rating": 4.5,
+      "tags": ["winter", "women"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 9,
+      "productName": "Running Shoes",
+      "description": "Lightweight running shoes",
+      "brand": "Nike",
+      "price": 74.99,
+      "discount": 10,
+      "stock": 22,
+      "rating": 4.6,
+      "tags": ["sports", "women"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 10,
+      "productName": "Watch",
+      "description": "Classic wristwatch",
+      "brand": "Rolex",
+      "price": 250.99,
+      "discount": 15,
+      "stock": 6,
+      "rating": 4.9,
+      "tags": ["luxury", "women"],
+      "image": "https://via.placeholder.com/150"
+    }
+  ],
+  "man": [
+    {
+      "id": 1,
+      "productName": "Leather Jacket",
+      "description": "Premium leather jacket",
+      "brand": "Harley Davidson",
+      "price": 150.99,
+      "discount": 10,
+      "stock": 5,
+      "rating": 4.8,
+      "tags": ["fashion", "men"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "productName": "Sneakers",
+      "description": "Comfortable running shoes",
+      "brand": "Adidas",
+      "price": 89.99,
+      "discount": 15,
+      "stock": 20,
+      "rating": 4.7,
+      "tags": ["shoes", "men"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "productName": "Smartwatch",
+      "description": "Waterproof smartwatch",
+      "brand": "Samsung",
+      "price": 199.99,
+      "discount": 5,
+      "stock": 10,
+      "rating": 4.5,
+      "tags": ["electronics", "men"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "productName": "Formal Shirt",
+      "description": "Slim fit white shirt",
+      "brand": "Calvin Klein",
+      "price": 59.99,
+      "discount": 8,
+      "stock": 18,
+      "rating": 4.6,
+      "tags": ["clothing", "men"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "productName": "Belt",
+      "description": "Genuine leather belt",
+      "brand": "Gucci",
+      "price": 49.99,
+      "discount": 10,
+      "stock": 25,
+      "rating": 4.5,
+      "tags": ["accessories", "men"],
+      "image": "https://via.placeholder.com/150"
+    }
+  ],
+  "kids": [
+    {
+      "id": 1,
+      "productName": "Teddy Bear",
+      "description": "Soft and fluffy teddy bear",
+      "brand": "Toys R Us",
+      "price": 19.99,
+      "discount": 5,
+      "stock": 30,
+      "rating": 4.9,
+      "tags": ["toys", "kids"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "productName": "Cartoon T-Shirt",
+      "description": "Cotton t-shirt with cartoon prints",
+      "brand": "Disney",
+      "price": 14.99,
+      "discount": 10,
+      "stock": 40,
+      "rating": 4.6,
+      "tags": ["clothing", "kids"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "productName": "School Bag",
+      "description": "Lightweight school backpack",
+      "brand": "Nike",
+      "price": 29.99,
+      "discount": 12,
+      "stock": 15,
+      "rating": 4.7,
+      "tags": ["school", "kids"],
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "productName": "RC Car",
+      "description": "Remote control car with rechargeable battery",
+      "brand": "Hot Wheels",
+      "price": 49.99,
+      "discount": 8,
+      "stock": 10,
+      "rating": 4.5,
+      "tags": ["toys", "kids"],
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+}
