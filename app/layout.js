@@ -5,6 +5,8 @@ import Header from "./_components/Header";
 import localFont from "next/font/local";
 
 import Offer from "./_components/Offer";
+import { ChakraProvider } from "@chakra-ui/react";
+import { ColorModeProvider } from "@/components/ui/color-mode";
 
 // Load the font
 const helveticaFont = localFont({

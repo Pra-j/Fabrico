@@ -11,6 +11,7 @@
 import { Grid, GridItem } from "@chakra-ui/react";
 import Link from "next/link";
 import ImageCard from "./ImageCard";
+import ProductLayout from "./ProductLayout";
 
 export default async function ReadyToWear() {
   const response = await fetch(
@@ -18,19 +19,5 @@ export default async function ReadyToWear() {
   );
   const data = await response.json();
 
-  return (
-    <div className="text-black my-14 ">
-      <div className="flex justify-between items-center mb-10">
-        <h1 className="text-heading uppercase">Ready&minus;to&minus;Wear</h1>
-        <Link href="/products">See More &rarr;</Link>
-      </div>
-      <Grid templateColumns="repeat(4, 1fr)" gap="6">
-        {data.slice(0, 4).map((item) => (
-          <GridItem key={item.id}>
-            <ImageCard item={item} />
-          </GridItem>
-        ))}
-      </Grid>
-    </div>
-  );
+  return <ProductLayout heading="Ready&minus;to&minus;Wear" data={data} />;
 }

@@ -1,12 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["fakestoreapi.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "fakestoreapi.com",
+      },
+    ],
   },
 
-  webpack: (config, { isServer }) => {
-    // Disable caching
-    config.cache = false;
+  webpack: (config) => {
+    config.cache = {
+      type: "memory", // Use memory instead of filesystem
+    };
     return config;
   },
 };

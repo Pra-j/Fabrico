@@ -16,7 +16,7 @@ export default {
       },
       fontSize: {
         feature: ["3rem", "1"],
-        heading: ["2rem", "1"],
+        heading: ["3rem", "1"],
       },
     },
   },
